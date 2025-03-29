@@ -8,7 +8,6 @@
 .contenedor {
     width: 100%;
     height: 400px;
-    border: 1px solid black;
 }
 
 
@@ -18,6 +17,7 @@ header {
     height: 50px;
     background-color: rgb(57, 130, 224);
 }
+
 
 .container-header {
     width: 100%;
@@ -50,11 +50,17 @@ header {
 .cover {
     height: 400px;
     width: 400px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    margin: auto;
 }
+
+.cover__title {
+    margin-bottom: 15px;
+}
+
 
 .btn {
     padding: 8px 25px;
@@ -67,7 +73,6 @@ header {
 /*Estilos para los servicios*/
 .services {
     margin: 30px auto;
-    border: 1px solid black;
     width: 90%;
     height: 300px;    
 }
@@ -80,7 +85,6 @@ header {
 .services__cards {
     width: 80%;
     height: 200px;
-    border: 1px solid;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -91,11 +95,36 @@ header {
 /*Estilos de las cards*/
 .card {
     width: 300px;
-    height: 400px;
+    height: 250px;
+    border-radius: 15px;
+    color: white;
 }
 
 .card__title {
+    margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+.card--one {
+    background-image: url(../img/wev_development.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 40px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card--two {
+    background-image: url(../img/precio-por-mantenimiento-de-pc.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 40px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card--three{
+    background-image: url(../img/Por-que-necesito-contratar-los-servicios-de-diseño-grafico.webp);
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 40px 30px rgba(0, 0, 0, 0.5);
 }
 
 
