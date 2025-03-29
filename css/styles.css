@@ -102,6 +102,71 @@ header {
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
         
+/* Pagina de login y register */
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;   
+    align-items: center;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 200px;
+    width: 400px;
+    box-shadow: 0px 0px 10px -1px rgba(97, 97, 97, 0.45);
+    
+
+    
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form div input{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.send{
+    background-color: rgb(57, 130, 224);
+    border-radius: 3px;
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+.send:hover{
+    background-color: rgb(50, 114, 199);
+}
+
+.text{
+    text-align: center;
+    color: rgb(43, 43, 43);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(50, 114, 199);
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
 
 
 
@@ -110,61 +175,5 @@ header {
 
 
 
-        /* Pagina de login y register */
-        .container{
-            display: flex;
-            justify-content: center;
-            min-height: 100vh;   
-            align-items: center;
-            background: radial-gradient(circle, rgba(215,213,228,1) 0%, rgba(184,184,203,1) 39%, rgba(187,193,195,1) 100%);
-            font-family: "Roboto", sans-serif;
-        }
 
-        .form{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            min-width: 200px;
-            width: 400px;
-            box-shadow: 0px 0px 10px -1px rgba(97, 97, 97, 0.45);
-            
-
-            
-        }
-
-        .form div{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .form div input{
-            border: 1px solid rgb(219, 219, 219);
-            border-radius: 3px;
-            padding: 10px;
-        }
-
-        .send{
-            background-color: rgb(57, 130, 224);
-            border-radius: 3px;
-            color: white;
-            border: none;
-            padding: 8px;
-        }
-
-        .send:hover{
-            background-color: rgb(50, 114, 199);
-        }
-
-        .text{
-            text-align: center;
-            color: rgb(43, 43, 43);
-        }
-
-        a{
-            text-decoration: none;
-            color: rgb(50, 114, 199);
-        }
+        
