@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registrate | nombre empresa </title>
+    <link href="../css/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -11,18 +12,32 @@
     </header>
     <main>
         <div class="container">
-            <form>
-                <h2> Crea una cuenta </h2>
+            <div> <img class="logo" ></div>
+            <form class="form" method="get" action="../index.html">
+                <h2 class="text"> Registrate para nuestro sitio </h2>
                 <div>
                     <label> Nombre completo </label>
-                    <input type="text">
+                    <input type="text" required minlength="10" placeholder="Ingrese su correo">
                 </div>
                 <div>
-
+                    <label> Correo electronico </label>
+                    <input type="email" required placeholder="Ingrese su nombre">
                 </div>
                 <div>
-                    
+                    <label> Contraseña </label>
+                    <input type="password" required minlength="12" maxlength="20" placeholder="Minimo 12 caracteres">
                 </div>
+                <div>
+                    <label> Fecha de nacimiento</label>
+                    <input type="date" required>
+                </div>
+                <div>
+                    <label> Telefono </label>
+                    <input type="number" placeholder="Maximo 10 caracteres"  required  maxlength="10"> 
+                </div>
+                
+                <button type="submit" class="send" > Registrarse</button>
+            
             </form>
         </div>
     </main>
