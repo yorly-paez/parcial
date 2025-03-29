@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar seccion | nombre empresa </title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        
+        .container{
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;   
+            align-items: center;
+            background: linear-gradient(90deg, rgba(53,51,88,1) 0%, rgba(83,83,136,1) 39%, rgba(0,212,255,1) 100%);
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            min-width: 200px;
+            width: 350px;
+            box-shadow: 0px 0px 10px -1px rgba(97, 97, 97, 0.45);
+            
+
+            
+        }
+
+        .form div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .form div input{
+            border: 1px solid rgb(219, 219, 219);
+            border-radius: 3px;
+            padding: 10px;
+        }
+
+        .send{
+            background-color: rgb(57, 130, 224);
+            border-radius: 3px;
+            color: white;
+            border: none;
+            padding: 5px;
+        }
+
+        .send:hover{
+            background-color: rgb(50, 114, 199);
+        }
+
+        .text{
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="container">
+            <form class="form">
+                <h2 class="text"> Iniciar sección </h2>
+                <div>
+                    <label> Correo electronico </label>
+                    <input type="email" required placeholder="Ingrese su correo">
+                </div>
+                <div>
+                    <label> Contraseña </label>
+                    <input type="password" minlength="12" placeholder="Ingrese su contraseña">
+                </div>
+                <button type="submit" class="send"> Ingresar </button>
+                <p class="text"> ¿No tienes cuenta? <a href="register.html"> Registrate aquí </a></p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div> </div>
+        <div> </div>
+    </footer>
+</body>
+</html>
